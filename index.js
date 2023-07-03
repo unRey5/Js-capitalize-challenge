@@ -1,7 +1,7 @@
 const myString = 'developer';
 
-let myNewString = myString.slice(0, 1).toUpperCase();
+let myNewString;
 
- let finalSolution = myNewString + myString.slice(1, 9);
+myNewString = myString.slice(0,1).toUpperCase() + myString.slice(1,9);
 
-console.log(finalSolution);
+console.log(myNewString);
