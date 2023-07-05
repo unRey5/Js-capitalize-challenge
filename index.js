@@ -37,3 +37,34 @@ console.log(sum);
 console.log(x);
 
 console.log(y);
+
+let t = Math.floor(Date.now() / 1000);
+console.log(t);
+
+//getting today's date using object literals
+
+let d;
+let e = new Date();
+
+d = `${e.getFullYear()}-${e.getMonth() + 1}-${e.getDate()}`;
+
+console.log(d);
+
+//arrays and objects
+
+const numbers = [5, 5, 23, 45, 5, 56];
+
+console.log(numbers);
+
+const fruits = ['oranges', 'mangoes', 'avocado', 'pear'];
+
+console.log(fruits);
+
+let o;
+o = fruits[1];
+
+o = fruits.length;
+
+console.log(o);
+
+
