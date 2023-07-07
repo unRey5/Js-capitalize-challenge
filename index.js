@@ -65,6 +65,37 @@ o = fruits[1];
 
 o = fruits.length;
 
+o = `I like ${fruits[2]}`;
+
+fruits[1] = 'pear';
+
+fruits.push('strawberry');
+
+fruits.pop();
+
+fruits.unshift('strawberry');
+
+fruits.shift();
+
+fruits.reverse();
+
+o = fruits.includes('pear');
+
+// o = fruits.slice(1, 3);
+
+o = fruits.splice(1);
+
 console.log(o);
+
+fruits.push('avocado', 'pineaple', 'cocos');
+
+console.log(fruits);
+console.log(fruits);
+console.log(numbers);
+
+
+gg = [...fruits, ...numbers]
+
+console.log(gg);
 
 
