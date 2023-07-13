@@ -98,4 +98,49 @@ gg = [...fruits, ...numbers]
 
 console.log(gg);
 
+//array challenge
 
+const arr = [1, 2, 3, 5];
+
+arr.unshift(0);
+
+arr.push(6);
+
+arr.reverse();
+
+
+console.log(arr);
+
+
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [5, 6, 7, 8, 9, 10];
+
+arr1.splice(4);
+console.log(arr1);
+
+const arr3 = [...arr1, ...arr2];
+
+
+console.log(arr3);
+
+const person = {
+    name: 'Dan Odey',
+    age: 30,
+
+
+};
+
+
+
+let c;
+
+c = person.age;
+
+c = person['name'];
+
+delete person.age;
+
+person.hasChildren = 'true';
+console.log(person);
+
+console.log(c);
