@@ -126,7 +126,12 @@ console.log(arr3);
 const person = {
     name: 'Dan Odey',
     age: 30,
-
+    isAdmin: false,
+    address: {
+        street: '1123 Crenshaw Ave', 
+        state: 'California',
+        Country: 'United States of America'
+    }
 
 };
 
@@ -138,9 +143,53 @@ c = person.age;
 
 c = person['name'];
 
-delete person.age;
+// delete person.age;
 
 person.hasChildren = 'true';
 console.log(person);
 
+c = person.address.Country;
+
+person.greet = function () {
+    console.log(`Hello I am ${this.name}, a ${this.age} years old web developer.`);
+}
+
+person.greet();
+
 console.log(c);
+
+let r;
+
+const todo = new Object();
+
+todo.name = 'Dante';
+todo.id = 'second';
+
+r = todo;
+
+
+console.log(r);
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+
+const obj3 = { ...obj1, ...obj2 };
+
+console.log(obj3);
+
+let h;
+const todo2 = [
+    {id:1, name:'Bread and tea'},
+    {id:2, name:'Spaghetti'},
+    {id:3, name:'Burger'},
+];
+
+h = todo2;
+
+h = todo2[1].name;
+
+h = Object.keys(todo2).length;
+
+h = Object.values(todo2);
+
+console.log(h);
