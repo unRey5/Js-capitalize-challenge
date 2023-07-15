@@ -193,3 +193,14 @@ h = Object.keys(todo2).length;
 h = Object.values(todo2);
 
 console.log(h);
+
+//destructuring = pulling variables out of the object.
+
+const todo3 = {
+    id: 1,
+    title: 'Top of the day'
+}
+
+const { title } = todo3;
+
+console.log(title);
