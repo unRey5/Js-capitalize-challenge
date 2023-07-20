@@ -279,3 +279,19 @@ function addition(num1, num2) {
 
 addition(2, 2);
 
+function registerUser(user = 'Anon') {
+
+    // if (!user) {
+    //     user = 'Anon';
+    // } //back in the day you will use this where user is not set. now we use default param. -like in the register user fxn
+    return user + ` you are welcome`;
+}
+
+console.log(registerUser());
+
+//rest operator
+
+function summ(...numbers) {
+    return numbers;
+}
+console.log(summ(1,2,3,4,5));
