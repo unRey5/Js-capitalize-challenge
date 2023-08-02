@@ -294,4 +294,26 @@ console.log(registerUser());
 function summ(...numbers) {
     return numbers;
 }
-console.log(summ(1,2,3,4,5));
+console.log(summ(1, 2, 3, 4, 5));
+
+//you can insert as many content as you want using the rest operator, and will be stored in an array and you can do anything you want on that array.
+
+//objets as params
+
+function loginUser(user) {
+    return `This user ${user.name} is successfully registered with id: ${user.id}`;
+}
+
+const user = {
+    name: 'Daniel',
+    id: 5,
+}
+console.log(loginUser(user));
+
+console.log(loginUser({
+    id: 2,
+    name: 'gee',
+}));
+
+
+alert('Isabela deposited $100,000');

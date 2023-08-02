@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 500px;
+}
+
+.container, .services {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+.service-writeup {
+    width: 49%;
+}
+
+.service-images {
+    border: 5px solid yellow;
+}
