@@ -274,10 +274,10 @@ greeting();
 
 
 function addition(num1, num2) {
-    console.log(num1 + num2);
+    console.log(num1 - num2);
 }
 
-addition(2, 2);
+addition(20, 2);
 
 function registerUser(user = 'Anon') {
 
@@ -287,7 +287,7 @@ function registerUser(user = 'Anon') {
     return user + ` you are welcome`;
 }
 
-console.log(registerUser());
+console.log(registerUser('Danny'));
 
 //rest operator
 
@@ -316,4 +316,4 @@ console.log(loginUser({
 }));
 
 
-alert('Isabela deposited $100,000');
+// alert('Isabela deposited $100,000');

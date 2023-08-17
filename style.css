@@ -20,3 +20,26 @@ img {
 .service-images {
     border: 5px solid yellow;
 }
+
+/* practice area */
+.practice {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    border: 2px solid yellow;
+    box-shadow: -25px -20px green;
+    margin: 0 auto;
+}
+.box2 {
+    height: 100px;
+    width: 200px;
+    border: 2px solid yellow;
+    box-shadow: 25px 20px 10px green;
+    margin: 0 auto;
+}
